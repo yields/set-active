@@ -1,0 +1,14 @@
+{
+  "name": "set-active",
+  "repo": "yields/set-active",
+  "description": "set any element as active.",
+  "version": "0.0.1",
+  "keywords": ["set-active", "activeElement"],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "development": {
+    "visionmedia/mocha": "*",
+    "component/assert": "*"
+  }
+}
