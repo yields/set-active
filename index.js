@@ -8,7 +8,8 @@
  */
 
 module.exports = function(el){
-  el.setAttribute('tabindex', -1);
+  var has = el.hasAttribute('tabindex');
+  if (!has) el.setAttribute('tabindex', -1);
   el.focus();
   return el;
 };
