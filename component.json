@@ -10,5 +10,8 @@
   "development": {
     "visionmedia/mocha": "*",
     "component/assert": "*"
+  },
+  "dependencies": {
+    "stephenmathieson/is-focusable": "0.0.1"
   }
 }

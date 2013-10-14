@@ -8,4 +8,12 @@ describe('activate(el)', function(){
     document.body.appendChild(el);
     assert(activate(el) == document.activeElement);
   })
+
+  it('should not add tabindex to natively focusable elements', function(){
+    var el = document.createElement('a');
+    el.href = 'http://google.com';
+    document.body.appendChild(el);
+    assert(activate(el) == document.activeElement);
+    assert(el.hasAttribute('tabindex') == false);
+  })
 })
