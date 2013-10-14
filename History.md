@@ -1,4 +1,9 @@
 
+0.1.0 / 2013-10-14
+==================
+
+ * don't remove elements from the tab order [stephenmathieson]
+
 0.0.2 / 2013-09-15
 ==================
 

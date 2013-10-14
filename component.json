@@ -2,7 +2,7 @@
   "name": "set-active",
   "repo": "yields/set-active",
   "description": "set any element as active.",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "keywords": ["set-active", "activeElement"],
   "license": "MIT",
   "main": "index.js",
