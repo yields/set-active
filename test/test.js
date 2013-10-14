@@ -14,5 +14,6 @@ describe('activate(el)', function(){
     el.href = 'http://google.com';
     document.body.appendChild(el);
     assert(activate(el) == document.activeElement);
+    assert(el.hasAttribute('tabindex') == false);
   })
 })
